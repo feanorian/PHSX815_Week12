@@ -36,7 +36,7 @@ if __name__ == "__main__":
 		samples = 100
 
 	if '-std' in sys.argv:
-		p = sys.argv.index('-n')
+		p = sys.argv.index('-std')
 		stdev = int(sys.argv[p+1])
 	else:
 		stdev = 1
